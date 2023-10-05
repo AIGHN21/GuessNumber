@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+.title1{
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+
+#again{
+    padding: 20px 30px;
+    margin: 0;
+    border: solid 3px white;
+}
+#choose{
+    margin-left: auto;
+}
+#Guess{
+    font-size: 30px;
+}
+#Title{
+    border: 4px white solid;
+    padding : 5px 4px
+
+}
+
+p , #Title{
+    color:white;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.incorret{
+    color:black;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin :0 auto;
+    border :2px solid black;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    
+}
+.input{
+    margin: 20px auto;
+    text-align: center;
+}
+.check{
+    background-color: black;
+    color:  white ;
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#tryagain{
+    display: none;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Mulish:wght@200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <header> 
+   <div class="title1">
+    <p id="choose2">EXIT</p>
+    <p id="choose">Between 1 to 20</p>
+    </div>
+   <p id="Guess">Guess My Number!</p>
+   <h1 id="Title">Score : <span id="score_current">10</span></h1>
+   </header>
+   <div class="main">
+    <section class="input">
+        <div id="chooose">
+    <input type="number" class="check" onkeydown="handleKeyPress(event)" >
+    <button class="check" onclick="checkNumber()">CHECK!</button> 
+</div>
+     <p color="black" class="incorret">CHỌN 1 SỐ TỪ 0 ĐẾN 20</p>
+     <div id="tryagain"><button id="again" onclick="restart()">CHƠI LẠI</button></div>
+    </section>
+   
+   
+</div> 
+   
+   <script src="js/script.js"></script>
+</body>
+</html>
